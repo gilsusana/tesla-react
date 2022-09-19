@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap');
+
 *{
-  box-sizing: border-box;
+  box-sizing: border;
   font-family: "Rubik", sans-serif;
   color:#393c41;
   padding: 0%;
@@ -11,8 +13,12 @@ body{
   overflow-x: hidden;
 }
 
+body.hideScroll{
+	overflow: hidden;
+}
+
 a{
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 @keyframes animateDown{
